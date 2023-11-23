@@ -9,7 +9,7 @@ function palindrome(str){
 		if(str[start] == " ") {
 			start++;
 		}
-		if (start[end] == " ") {
+		if (str[end] == " ") {
 			end--;
 		}
 		if(str[start] !== str[end]) return false;
